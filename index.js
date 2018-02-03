@@ -1,3 +1,3 @@
 const { builtinModules } = require("module");
 
-for (const module of builtinModules) exports[module] = require(module);
+for (const mod of builtinModules) exports[mod] = require(mod);
